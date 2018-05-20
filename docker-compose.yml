@@ -1,0 +1,10 @@
+version: "3" #versao do docker compose
+services:
+  jupyter:
+    image: jupyter_image # pega a imagem que criamos
+    container_name: jupyter_container # cria um container com esse nome
+    volumes:
+     - ./notebooks:/home/jovyan/work # Linka o diretorio local com o do container
+    ports:
+      - 8888:8888 # Porta 8888 local e do container
+    command: start-notebook.sh # inicia o jupyter notebook

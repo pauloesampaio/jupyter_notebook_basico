@@ -1,1 +1,3 @@
-# jupyter_notebook_basico
+# Jupyter notebook docker image
+
+Com um minimo de pacotes para data science

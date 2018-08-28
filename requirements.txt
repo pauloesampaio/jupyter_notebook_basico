@@ -7,3 +7,5 @@ seaborn
 nltk
 gensim
 pyldavis
+tensorflow
+keras
